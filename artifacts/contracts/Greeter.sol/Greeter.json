@@ -1,0 +1,48 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Greeter",
+  "sourceName": "contracts/Greeter.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_greeting",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "greet",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_greeting",
+          "type": "uint256"
+        }
+      ],
+      "name": "setGreeting",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506040516101213803806101218339818101604052602081101561003357600080fd5b8101908080519060200190929190505050806000819055505060c78061005a6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063b2010978146037578063cfae3217146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea26469706673582212208986f1091b2304e8ffed62b87b6b5ceb98f1883d12e02673b060bc3917a8091864736f6c63430007030033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063b2010978146037578063cfae3217146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea26469706673582212208986f1091b2304e8ffed62b87b6b5ceb98f1883d12e02673b060bc3917a8091864736f6c63430007030033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

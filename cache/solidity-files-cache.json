@@ -1,0 +1,73 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/thekithlord/Crypto/hardhat-truffle/contracts/BidContract.sol": {
+      "lastModificationDate": 1620619218423,
+      "contentHash": "30315a4f30c27db7578fbfb2753de7b3",
+      "sourceName": "contracts/BidContract.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "BidContract"
+      ]
+    },
+    "/Users/thekithlord/Crypto/hardhat-truffle/contracts/Greeter.sol": {
+      "lastModificationDate": 1620620858727,
+      "contentHash": "af0d030dd799638e56fe7c590baa4393",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    }
+  }
+}
